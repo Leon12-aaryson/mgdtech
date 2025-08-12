@@ -26,11 +26,11 @@
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#av-integration" class="btn-primary">
-                        <i class="fas fa-video mr-2"></i>
+                        <i class="bx bx-video mr-2"></i>
                         AV Integration
                     </a>
                     <a href="#networking" class="btn-outline">
-                        <i class="fas fa-users mr-2"></i>
+                        <i class="bx bx-group mr-2"></i>
                         Networking Events
                     </a>
                 </div>
@@ -62,7 +62,7 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-video text-primary-600"></i>
+                            <i class="bx bx-video text-primary-600"></i>
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-2">Video Conferencing</h4>
@@ -72,7 +72,7 @@
                     
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-tv text-primary-600"></i>
+                            <i class="bx bx-tv text-primary-600"></i>
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-2">Large Displays</h4>
@@ -82,7 +82,7 @@
                     
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-volume-up text-primary-600"></i>
+                            <i class="bx bx-volume-full text-primary-600"></i>
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-2">Sound Systems</h4>
@@ -92,7 +92,7 @@
                     
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-cogs text-primary-600"></i>
+                            <i class="bx bx-cog text-primary-600"></i>
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-2">Control Integration</h4>

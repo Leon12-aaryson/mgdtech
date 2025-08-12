@@ -5,32 +5,32 @@
 @section('content')
 <!-- Hero Section -->
 <section class="py-20 bg-white">
-    <div class="container-custom">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center">
             <!-- Left Blue Block -->
-            <div class="bg-primary-600 text-white p-16 lg:p-20 flex items-center justify-center">
+            <div class="bg-primary-600 text-white p-12 lg:p-16 xl:p-20 flex items-center justify-center">
                 <div class="text-center">
-                    <h1 class="text-4xl font-bold uppercase tracking-wider mb-4">Get In Touch</h1>
-                    <p class="text-lg text-primary-100">Let's Build Something Amazing</p>
+                    <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold uppercase tracking-wider mb-4">Get In Touch</h1>
+                    <p class="text-base lg:text-lg text-primary-100">Let's Build Something Amazing</p>
                 </div>
             </div>
             
             <!-- Right Content -->
-            <div class="p-16 lg:p-20 space-y-8">
-                <h2 class="text-3xl font-bold text-gray-900 leading-tight">
+            <div class="p-12 lg:p-16 xl:p-20 space-y-6 lg:space-y-8">
+                <h2 class="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-tight">
                     Ready to start a conversation?
                 </h2>
-                <p class="text-lg text-gray-600 leading-relaxed">
+                <p class="text-base lg:text-lg text-gray-600 leading-relaxed">
                     We're real people who love hearing about your ideas and dreams. 
                     Whether you have a clear vision or just a feeling that something amazing could happen, let's talk.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="#contact-form" class="btn-primary">
-                        <i class="fas fa-paper-plane mr-2"></i>
+                        <i class="bx bx-send mr-2"></i>
                         Send Message
                     </a>
                     <a href="#contact-info" class="btn-outline">
-                        <i class="fas fa-info-circle mr-2"></i>
+                        <i class="bx bx-info-circle mr-2"></i>
                         Contact Info
                     </a>
                 </div>
@@ -41,19 +41,19 @@
 
 <!-- Contact Form Section -->
 <section id="contact-form" class="py-20 bg-gray-50">
-    <div class="container-custom">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center">
             <!-- Left Blue Block -->
-            <div class="bg-primary-600 text-white p-16 lg:p-20 flex items-center justify-center">
-                <h2 class="text-4xl font-bold uppercase tracking-wider">Contact Form</h2>
+            <div class="bg-primary-600 text-white p-12 lg:p-16 xl:p-20 flex items-center justify-center">
+                <h2 class="text-3xl lg:text-4xl font-bold uppercase tracking-wider">Contact Form</h2>
             </div>
             
             <!-- Right Content -->
-            <div class="p-16 lg:p-20 space-y-8">
-                <h3 class="text-3xl font-bold text-gray-900 leading-tight">
+            <div class="p-12 lg:p-16 xl:p-20 space-y-6 lg:space-y-8">
+                <h3 class="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-tight">
                     Let's Start a Conversation
                 </h3>
-                <p class="text-lg text-gray-600 leading-relaxed">
+                <p class="text-base lg:text-lg text-gray-600 leading-relaxed">
                     We're excited to hear from you! Fill out the form below and we'll get back to you within 24 hours. 
                     No pressure, no sales pitch—just a friendly chat about what you're trying to create.
                 </p>
@@ -61,7 +61,7 @@
                 @if(session('success'))
                     <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-lg">
                         <div class="flex items-center">
-                            <i class="fas fa-check-circle mr-2"></i>
+                            <i class="bx bx-check-circle mr-2"></i>
                             {{ session('success') }}
                         </div>
                     </div>
@@ -181,19 +181,19 @@
 
 <!-- Contact Information Section -->
 <section id="contact-info" class="py-20 bg-white">
-    <div class="container-custom">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center">
             <!-- Left Blue Block -->
-            <div class="bg-primary-600 text-white p-16 lg:p-20 flex items-center justify-center">
-                <h2 class="text-4xl font-bold uppercase tracking-wider">Contact Info</h2>
+            <div class="bg-primary-600 text-white p-12 lg:p-16 xl:p-20 flex items-center justify-center">
+                <h2 class="text-3xl lg:text-4xl font-bold uppercase tracking-wider">Contact Info</h2>
             </div>
             
             <!-- Right Content -->
-            <div class="p-16 lg:p-20 space-y-8">
-                <h3 class="text-3xl font-bold text-gray-900 leading-tight">
+            <div class="p-12 lg:p-16 xl:p-20 space-y-6 lg:space-y-8">
+                <h3 class="text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 leading-tight">
                     Get In Touch
                 </h3>
-                <p class="text-lg text-gray-600 leading-relaxed">
+                <p class="text-base lg:text-lg text-gray-600 leading-relaxed">
                     We're here to help and answer any questions you might have. 
                     We look forward to hearing from you.
                 </p>
@@ -201,7 +201,7 @@
                 <div class="space-y-6">
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-map-marker-alt text-primary-600"></i>
+                            <i class="bx bx-map-pin text-primary-600"></i>
                         </div>
                         <div>
                             <h4 class="text-lg font-semibold text-gray-900 mb-2">Office Address</h4>
@@ -214,7 +214,7 @@
                     
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-phone text-primary-600"></i>
+                            <i class="bx bx-phone text-primary-600"></i>
                         </div>
                         <div>
                             <h4 class="text-lg font-semibold text-gray-900 mb-2">Phone Number</h4>
@@ -228,7 +228,7 @@
                     
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-envelope text-primary-600"></i>
+                            <i class="bx bx-envelope text-primary-600"></i>
                         </div>
                         <div>
                             <h4 class="text-lg font-semibold text-gray-900 mb-2">Email Address</h4>
@@ -242,7 +242,7 @@
                     
                     <div class="flex items-start space-x-4">
                         <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-clock text-primary-600"></i>
+                            <i class="bx bx-time text-primary-600"></i>
                         </div>
                         <div>
                             <h4 class="text-lg font-semibold text-gray-900 mb-2">Business Hours</h4>
@@ -260,13 +260,13 @@
                     <h4 class="text-lg font-semibold text-gray-900 mb-4">Follow Us</h4>
                     <div class="flex space-x-4">
                         <a href="#" class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center text-primary-600 hover:bg-primary-200 transition-colors duration-200">
-                            <i class="fab fa-linkedin"></i>
+                            <i class="bx bxl-linkedin"></i>
                         </a>
                         <a href="#" class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center text-primary-600 hover:bg-primary-200 transition-colors duration-200">
-                            <i class="fab fa-twitter"></i>
+                            <i class="bx bxl-twitter"></i>
                         </a>
-                        <a href="#" class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center text-primary-600 hover:bg-primary-200 transition-colors duration-200">
-                            <i class="fab fa-instagram"></i>
+                        <a href="#" class="w-12 h-12 bg-primary-600 rounded-lg flex items-center justify-center text-white hover:bg-primary-700 transition-colors duration-200">
+                            <i class="bx bxl-instagram"></i>
                         </a>
                     </div>
                 </div>
@@ -277,15 +277,15 @@
 
 <!-- FAQ Section -->
 <section class="py-20 bg-gray-50">
-    <div class="container-custom">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center">
             <!-- Left Blue Block -->
-            <div class="bg-primary-600 text-white p-16 lg:p-20 flex items-center justify-center">
-                <h2 class="text-4xl font-bold uppercase tracking-wider">FAQ</h2>
+            <div class="bg-primary-600 text-white p-12 lg:p-16 xl:p-20 flex items-center justify-center">
+                <h2 class="text-3xl lg:text-4xl font-bold uppercase tracking-wider">FAQ</h2>
             </div>
             
             <!-- Right Content -->
-            <div class="p-16 lg:p-20">
+            <div class="p-12 lg:p-16 xl:p-20">
                 <div class="space-y-8">
                     <div class="border-b border-gray-200 pb-6">
                         <h3 class="text-xl font-bold text-gray-900 mb-4">
@@ -334,8 +334,8 @@
 
 <!-- CTA Section -->
 <section class="py-20 bg-white">
-    <div class="container-custom">
-        <div class="bg-primary-600 rounded-2xl p-16 text-center text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-primary-600 rounded-2xl p-12 lg:p-16 text-center text-white">
             <h2 class="text-4xl font-bold mb-6">
                 Ready to Start Your Project?
             </h2>
@@ -345,11 +345,11 @@
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#" class="btn-secondary text-lg px-8 py-4">
-                    <i class="fas fa-calendar mr-2"></i>
+                    <i class="bx bx-calendar mr-2"></i>
                     Schedule Free Call
                 </a>
                 <a href="{{ route('services') }}" class="btn-outline text-lg px-8 py-4">
-                    <i class="fas fa-info-circle mr-2"></i>
+                    <i class="bx bx-info-circle mr-2"></i>
                     View Services
                 </a>
             </div>
