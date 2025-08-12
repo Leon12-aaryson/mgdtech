@@ -11,8 +11,13 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css'])
     
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body class="font-sans antialiased bg-gray-50">
     <!-- Navigation -->
@@ -43,7 +48,7 @@
                 <!-- Mobile menu button -->
                 <div class="lg:hidden">
                     <button id="mobile-menu-button" class="mobile-menu-button p-2 rounded-md text-gray-600 hover:text-primary-600 hover:bg-gray-100 transition-colors duration-200">
-                        <i class="fas fa-bars text-xl" id="menu-icon"></i>
+                        <i class="bx bx-menu text-xl" id="menu-icon"></i>
                     </button>
                 </div>
             </div>
@@ -82,13 +87,13 @@
                 <!-- Social Links -->
                 <div class="flex items-center space-x-4 md:space-x-6">
                     <a href="#" class="text-gray-400 hover:text-primary-600 transition-colors duration-200">
-                        <i class="fab fa-linkedin-in text-base md:text-lg"></i>
+                        <i class="bx bxl-linkedin text-base md:text-lg"></i>
                     </a>
                     <a href="#" class="text-gray-400 hover:text-primary-600 transition-colors duration-200">
-                        <i class="fab fa-twitter text-base md:text-lg"></i>
+                        <i class="bx bxl-twitter text-base md:text-lg"></i>
                     </a>
                     <a href="#" class="text-gray-400 hover:text-primary-600 transition-colors duration-200">
-                        <i class="fab fa-instagram text-base md:text-lg"></i>
+                        <i class="bx bxl-instagram text-base md:text-lg"></i>
                     </a>
                 </div>
             </div>
@@ -144,12 +149,12 @@
         }
         
         /* Mobile menu button animation */
-        .mobile-menu-button.active .fas.fa-bars {
+        .mobile-menu-button.active .bx.bx-menu {
             transform: rotate(90deg);
             transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
         
-        .mobile-menu-button .fas.fa-bars {
+        .mobile-menu-button .bx.bx-menu {
             transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
         
@@ -191,8 +196,8 @@
                     // Show menu with smooth animation
                     mobileMenu.classList.remove('hidden');
                     mobileMenuButton.classList.add('active');
-                    menuIcon.classList.remove('fa-bars');
-                    menuIcon.classList.add('fa-times');
+                    menuIcon.classList.remove('bx-menu');
+                    menuIcon.classList.add('bx-x');
                     
                     // Add smooth entrance effect
                     mobileMenu.style.transform = 'translateY(0)';
@@ -202,8 +207,8 @@
                     // Hide menu with smooth animation
                     mobileMenu.classList.add('hidden');
                     mobileMenuButton.classList.remove('active');
-                    menuIcon.classList.remove('fa-times');
-                    menuIcon.classList.add('fa-bars');
+                    menuIcon.classList.remove('bx-x');
+                    menuIcon.classList.add('bx-menu');
                     
                     // Add smooth exit effect
                     mobileMenu.style.transform = 'translateY(-10px)';
@@ -245,8 +250,8 @@
                     if (!mobileMenu.classList.contains('hidden')) {
                         mobileMenu.classList.add('hidden');
                         mobileMenuButton.classList.remove('active');
-                        menuIcon.classList.remove('fa-times');
-                        menuIcon.classList.add('fa-bars');
+                        menuIcon.classList.remove('bx-x');
+                        menuIcon.classList.add('bx-menu');
                         mobileMenu.style.transform = 'translateY(-10px)';
                         mobileMenu.style.opacity = '0';
                         mobileMenu.style.maxHeight = '0';

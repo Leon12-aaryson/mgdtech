@@ -20,7 +20,7 @@
                 </p>
                 <div class="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4">
                     <a href="{{ route('contact') }}" class="bg-white text-primary-700 px-6 lg:px-8 py-3 lg:py-4 rounded-xl font-semibold border-2 border-primary-200 hover:bg-primary-50 transition-colors duration-300 flex items-center space-x-2 w-full sm:w-auto justify-center">
-                        <i class="fas fa-paper-plane text-primary-600"></i>
+                        <i class="bx bx-send text-primary-600"></i>
                         <span>Write to us</span>
                     </a>
                 </div>
@@ -58,7 +58,7 @@
                 </p>
                 <a href="{{ route('about') }}" class="inline-flex items-center space-x-2 text-primary-600 font-semibold hover:text-primary-700 transition-colors duration-300">
                     <span>Read more</span>
-                    <i class="fas fa-arrow-right"></i>
+                    <i class="bx bx-right-arrow-alt"></i>
                 </a>
             </div>
         </div>
@@ -92,11 +92,11 @@
                                 <p class="mobile-text-sm lg:text-base text-gray-600">Professional AV systems for corporate boardrooms, event halls, and venues. Crystal-clear sound and stunning visuals.</p>
                                 <a href="{{ route('services') }}" class="inline-flex items-center space-x-2 text-primary-600 font-semibold hover:text-primary-700 transition-colors duration-300">
                                     <span>Book a demo</span>
-                                    <i class="fas fa-play text-sm"></i>
+                                    <i class="bx bx-play text-sm"></i>
                                 </a>
                             </div>
                             <div class="w-8 h-8 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0 ml-4">
-                                <i class="fas fa-video text-primary-600"></i>
+                                <i class="bx bx-video text-primary-600"></i>
                             </div>
                         </div>
                     </div>
@@ -109,11 +109,11 @@
                                 <p class="text-gray-600">Professional networking events where individuals and businesses build valuable relationships and collaborations.</p>
                                 <a href="{{ route('services') }}" class="inline-flex items-center space-x-2 text-primary-600 font-semibold hover:text-primary-700 transition-colors duration-300">
                                     <span>Book a demo</span>
-                                    <i class="fas fa-play text-sm"></i>
+                                    <i class="bx bx-play text-sm"></i>
                                 </a>
                             </div>
                             <div class="w-8 h-8 bg-primary-100 rounded-lg flex items-center justify-center">
-                                <i class="fas fa-users text-primary-600"></i>
+                                <i class="bx bx-group text-primary-600"></i>
                             </div>
                         </div>
                     </div>
@@ -126,11 +126,11 @@
                                 <p class="text-gray-600">Complete event planning, management, and online ticketing solutions for seamless event experiences.</p>
                                 <a href="{{ route('services') }}" class="inline-flex items-center space-x-2 text-primary-600 font-semibold hover:text-primary-700 transition-colors duration-300">
                                     <span>Book a demo</span>
-                                    <i class="fas fa-play text-sm"></i>
+                                    <i class="bx bx-play text-sm"></i>
                                 </a>
                             </div>
                             <div class="w-8 h-8 bg-primary-100 rounded-lg flex items-center justify-center">
-                                <i class="fas fa-calendar text-primary-600"></i>
+                                <i class="bx bx-calendar text-primary-600"></i>
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                 </p>
                 <a href="{{ route('about') }}" class="inline-flex items-center space-x-2 text-primary-600 font-semibold hover:text-primary-700 transition-colors duration-300">
                     <span>Read more</span>
-                    <i class="fas fa-arrow-right"></i>
+                    <i class="bx bx-right-arrow-alt"></i>
                 </a>
             </div>
             
@@ -220,17 +220,17 @@
                     <h4 class="mobile-text-lg lg:text-xl font-bold text-gray-900 mb-4">Support & Sales</h4>
                     <div class="space-y-3">
                         <div class="flex items-center space-x-3">
-                            <i class="fas fa-phone text-primary-600"></i>
+                            <i class="bx bx-phone text-primary-600"></i>
                             <span class="mobile-text-sm lg:text-base text-gray-700">+256 (0) 123-456-789</span>
                         </div>
                         <div class="flex items-center space-x-3">
-                            <i class="fas fa-envelope text-primary-600"></i>
+                            <i class="bx bx-envelope text-primary-600"></i>
                             <span class="mobile-text-sm lg:text-base text-gray-700">info@mgdtech.com</span>
                         </div>
                     </div>
                     <a href="{{ route('contact') }}" class="inline-flex items-center space-x-2 text-primary-600 font-semibold hover:text-primary-700 transition-colors duration-300 mt-4">
                         <span>Contact us</span>
-                        <i class="fas fa-play text-sm"></i>
+                        <i class="bx bx-play text-sm"></i>
                     </a>
                 </div>
             </div>
@@ -239,7 +239,7 @@
             <div class="p-8 sm:p-12 lg:p-16 xl:p-20">
                 <div class="bg-gray-100 rounded-2xl h-48 sm:h-64 flex items-center justify-center">
                     <div class="text-center space-y-2">
-                        <i class="fas fa-map-marker-alt text-3xl sm:text-4xl text-primary-600"></i>
+                        <i class="bx bx-map-pin text-3xl sm:text-4xl text-primary-600"></i>
                         <p class="mobile-text-sm lg:text-base text-gray-600">Kampala, Uganda</p>
                     </div>
                 </div>
@@ -260,11 +260,11 @@
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="{{ route('contact') }}" class="bg-white text-primary-700 px-8 py-4 rounded-xl font-semibold hover:bg-primary-50 transition-colors duration-300">
-                <i class="fas fa-paper-plane mr-2"></i>
+                <i class="bx bx-send mr-2"></i>
                 Start a Conversation
             </a>
             <a href="{{ route('services') }}" class="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-primary-700 transition-colors duration-300">
-                <i class="fas fa-info-circle mr-2"></i>
+                <i class="bx bx-info-circle mr-2"></i>
                 Learn More
             </a>
         </div>
