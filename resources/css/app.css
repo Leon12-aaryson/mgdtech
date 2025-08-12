@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Montserrat', system-ui, sans-serif;
+        line-height: 1.6;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Montserrat', system-ui, sans-serif;
+        line-height: 1.2;
+    }
+}
+
+@layer components {
+    .container-custom {
+        @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+    }
+    
+    .section-padding {
+        @apply py-16 sm:py-20 lg:py-24;
+    }
+    
+    .section-padding-sm {
+        @apply py-12 sm:py-16 lg:py-20;
+    }
+    
+    .btn-primary {
+        @apply inline-flex items-center justify-center px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+    }
+    
+    .btn-secondary {
+        @apply inline-flex items-center justify-center px-6 py-3 bg-accent-500 hover:bg-accent-600 text-white font-medium rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-accent-500 focus:ring-offset-2;
+    }
+    
+    .btn-outline {
+        @apply inline-flex items-center justify-center px-6 py-3 border-2 border-primary-600 text-primary-700 font-medium rounded-lg transition-all duration-300 hover:bg-primary-600 hover:text-white transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+    }
+    
+    .card {
+        @apply bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100;
+    }
+    
+    .input-field {
+        @apply w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors duration-200;
+    }
+    
+    .text-gradient {
+        @apply bg-gradient-to-r from-primary-600 to-accent-500 bg-clip-text text-transparent;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+    
+    .animate-float {
+        animation: float 6s ease-in-out infinite;
+    }
+    
+    .animate-pulse-soft {
+        animation: pulseSoft 4s ease-in-out infinite;
+    }
+    
+    /* Mobile responsive utilities */
+    .mobile-container {
+        @apply px-4 sm:px-6 lg:px-8;
+    }
+    
+    .mobile-text-sm {
+        @apply text-sm sm:text-base lg:text-lg;
+    }
+    
+    .mobile-text-base {
+        @apply text-base sm:text-lg lg:text-xl;
+    }
+    
+    .mobile-text-lg {
+        @apply text-lg sm:text-xl lg:text-2xl;
+    }
+    
+    .mobile-text-xl {
+        @apply text-xl sm:text-2xl lg:text-3xl;
+    }
+    
+    .mobile-text-2xl {
+        @apply text-2xl sm:text-3xl lg:text-4xl;
+    }
+    
+    .mobile-text-3xl {
+        @apply text-3xl sm:text-4xl lg:text-5xl;
+    }
+    
+    .mobile-text-4xl {
+        @apply text-4xl sm:text-5xl lg:text-6xl;
+    }
+    
+    .mobile-padding {
+        @apply py-12 sm:py-16 lg:py-20;
+    }
+    
+    .mobile-padding-sm {
+        @apply py-8 sm:py-12 lg:py-16;
+    }
+    
+    .mobile-padding-lg {
+        @apply py-16 sm:py-20 lg:py-24;
+    }
+    
+    .mobile-grid {
+        @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+    }
+    
+    .mobile-flex-col {
+        @apply flex-col sm:flex-row;
+    }
+    
+    .mobile-space-y {
+        @apply space-y-4 sm:space-y-6 lg:space-y-8;
+    }
+    
+    .mobile-space-x {
+        @apply space-x-2 sm:space-x-4 lg:space-x-6;
+    }
+    
+    /* Additional mobile responsive utilities */
+    .mobile-gap {
+        @apply gap-4 sm:gap-6 lg:gap-8;
+    }
+    
+    .mobile-margin {
+        @apply my-8 sm:my-12 lg:my-16;
+    }
+    
+    .mobile-border-radius {
+        @apply rounded-lg sm:rounded-xl lg:rounded-2xl;
+    }
+    
+    .mobile-shadow {
+        @apply shadow-sm sm:shadow-md lg:shadow-lg;
+    }
+    
+    /* Mobile-first responsive text */
+    .responsive-text-xs {
+        @apply text-xs sm:text-sm lg:text-base;
+    }
+    
+    .responsive-text-sm {
+        @apply text-sm sm:text-base lg:text-lg;
+    }
+    
+    .responsive-text-base {
+        @apply text-base sm:text-lg lg:text-xl;
+    }
+    
+    .responsive-text-lg {
+        @apply text-lg sm:text-xl lg:text-2xl;
+    }
+    
+    .responsive-text-xl {
+        @apply text-xl sm:text-2xl lg:text-3xl;
+    }
+    
+    .responsive-text-2xl {
+        @apply text-2xl sm:text-3xl lg:text-4xl;
+    }
+    
+    .responsive-text-3xl {
+        @apply text-3xl sm:text-4xl lg:text-5xl;
+    }
+    
+    .responsive-text-4xl {
+        @apply text-4xl sm:text-5xl lg:text-6xl;
+    }
+    
+    /* Mobile responsive spacing */
+    .mobile-section {
+        @apply py-12 sm:py-16 lg:py-20 xl:py-24;
+    }
+    
+    .mobile-container {
+        @apply px-4 sm:px-6 lg:px-8 xl:px-12;
+    }
+    
+    /* Mobile responsive grid */
+    .mobile-grid-1 {
+        @apply grid-cols-1;
+    }
+    
+    .mobile-grid-2 {
+        @apply grid-cols-1 sm:grid-cols-2;
+    }
+    
+    .mobile-grid-3 {
+        @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-3;
+    }
+    
+    .mobile-grid-4 {
+        @apply grid-cols-1 sm:grid-cols-2 lg:grid-cols-4;
+    }
+    
+    /* Mobile responsive flex */
+    .mobile-flex-col {
+        @apply flex-col sm:flex-row;
+    }
+    
+    .mobile-flex-wrap {
+        @apply flex-wrap sm:flex-nowrap;
+    }
+    
+    /* Mobile responsive positioning */
+    .mobile-text-center {
+        @apply text-center sm:text-left lg:text-center;
+    }
+    
+    .mobile-hidden {
+        @apply hidden sm:block;
+    }
+    
+    .mobile-block {
+        @apply block sm:hidden;
+    }
+}
